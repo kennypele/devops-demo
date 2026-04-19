@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html", app_name="Flask Elastic Beanstalk Demo version 5.0")
+    return render_template("index.html", app_name="Flask Elastic Beanstalk Demo version 6.0")
 
 
 @app.route("/health")
